@@ -23,7 +23,7 @@ The folders are as follow -
 
 4) Once finished, run the container using the below command. 
 
-       `docker run -it --rm -v /path/of/01_data:/01_data -v /path/of/03_output:/03_output fishDocker`
+       `docker run -it --rm -v /path/of/01_data:/01_data -v /path/of/03_output:/03_output fishdocker`
 
 Using the `-v` argument signals Docker which local folders to map to the created folders inside the container. This is important because we want to both get our dataframe inside the container and save our output from the workflow locally so it isn’t lost once the container is stopped.
 

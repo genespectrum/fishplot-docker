@@ -19,7 +19,7 @@ The folders are as follow -
 
 3) Build the image using the base image from Docker Hub. The below command will build the container on a local installation.  Navigate to the fishplot-docker folder and then run this command. It will take some time to build the container. 
 
-       `docker build -t fishDocker .`
+       `docker build -t fishdocker .`
 
 4) Once finished, run the container using the below command. 
 

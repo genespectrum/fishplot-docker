@@ -28,4 +28,4 @@ COPY /02_code/Fishplot_Docker.R /02_code/Fishplot_Docker.R
 RUN Rscript /02_code/install_packages.R
 
 ## run fishplot script
-RUN Rscript /02_code/Fishplot_Docker.R
+CMD Rscript /02_code/Fishplot_Docker.R
